@@ -52,6 +52,18 @@ End-to-end customer churn prediction project using the WSDM KKBox dataset, with 
 
 ---
 
+### Retail Store Sales Forecasting
+
+Production-style retail demand forecasting project using time-aware validation, leakage-safe feature engineering, LightGBM, CatBoost, lag features, rolling statistics, promotion features, and a Streamlit dashboard.
+
+Tech: Python, pandas, scikit-learn, LightGBM, CatBoost, Streamlit  
+Focus: Time-series forecasting, demand forecasting, leakage-safe validation, feature engineering, model comparison  
+Result: LightGBM RMSLE = 0.373578 on internal time-based validation  
+Live Demo: https://retail-sales-forecasting-ml-system.streamlit.app/  
+Repository: https://github.com/peyamikenanoglu/retail-sales-forecasting-ml-system
+
+---
+
 ### TMDB Box Office Prediction & Movie Recommender
 
 Machine learning project for box office revenue prediction and movie recommendation using structured movie metadata.
