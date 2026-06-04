@@ -110,3 +110,5 @@ Machine learning project for box office revenue prediction and movie recommendat
 ## Profile Direction
 
 My goal is to build practical AI systems that go beyond notebooks: structured repositories, reproducible pipelines, readable documentation, and deployable machine learning products.
+
+The source code in this repository is released under the MIT License. The dataset is subject to the original dataset provider's license and terms of use.
