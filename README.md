@@ -1,114 +1,86 @@
-<h1 align="center">Hi, I'm Peyami Kenanoğlu</h1>
+<h1 align="center">Peyami Kenanoğlu</h1>
 
 <p align="center">
-  AI Engineer & Data Scientist focused on end-to-end machine learning systems, applied AI, and portfolio-grade data products.
+AI/ML Engineer & Data Scientist building business-facing machine learning systems for forecasting, fraud and risk scoring, churn prediction, operational intelligence, automation, dashboards, APIs, and decision support.
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/peyami-kenanoglu">LinkedIn</a> •
-  <a href="https://orcid.org/0000-0003-1951-9534">ORCID</a> •
+  <a href="https://www.linkedin.com/in/peyami-kenanoglu">LinkedIn</a> |
+  <a href="https://orcid.org/0000-0003-1951-9534">ORCID</a> |
   <a href="https://github.com/peyamikenanoglu">GitHub</a>
 </p>
 
 ---
 
-## About Me
+## What I Build
 
-I build practical machine learning and AI projects with an emphasis on real-world validation, leakage-safe modeling, feature engineering, and clear project documentation.
+I build practical machine learning systems that go beyond notebook experiments: reproducible pipelines, time-aware validation, leakage-safe feature engineering, clear model evaluation, and deployment-oriented FastAPI or Streamlit interfaces where they add real value.
 
-My current focus is on building a strong AI/Data Science portfolio through end-to-end projects in:
-
-- Fraud detection
-- Customer churn prediction
-- Forecasting
-- Recommender systems
-- Applied machine learning pipelines
-- Deployment-oriented ML systems
-
-I also have an academic background in Project and Construction Management, with PhD-level research on machine learning applications for construction risk assessment.
+My work focuses on applied ML for business decisions: demand forecasting, fraud/risk scoring, churn prediction, anomaly detection, operational dashboards, and decision-support workflows. As a Project & Construction Management PhD student, I also bring domain context for construction risk and project analytics without limiting my work to that sector.
 
 ---
 
 ## Featured Projects
 
-### IEEE-CIS Fraud Detection
+### 1. IEEE-CIS Fraud Detection
 
-Time-aware fraud detection pipeline using advanced feature engineering, UID-style features, LightGBM, XGBoost, CatBoost, and ensemble learning.
+End-to-end fraud detection ML system focused on realistic validation, careful feature engineering, and deployable scoring components.
 
-**Tech:** Python, pandas, scikit-learn, XGBoost, LightGBM, CatBoost  
-**Focus:** Fraud detection, feature engineering, leakage-safe validation, imbalanced classification  
-**Result:** ROC-AUC = 0.9292  
-**Repository:** [peyamikenanoglu/ieee-fraud-detection](https://github.com/peyamikenanoglu/ieee-fraud-detection)
+* Time-aware validation and leakage-safe feature engineering
+* LightGBM, XGBoost, CatBoost, and weighted ensemble modeling
+* Final ensemble ROC-AUC: **0.9292**
+* Includes FastAPI and Streamlit components
+* Repository: [peyamikenanoglu/ieee-fraud-detection](https://github.com/peyamikenanoglu/ieee-fraud-detection)
 
----
+### 2. Retail Sales Forecasting ML System
 
-### KKBox Churn Prediction
+Retail demand forecasting system designed around time-based validation, business-relevant forecast quality, and an interactive demo.
 
-End-to-end customer churn prediction project using the WSDM KKBox dataset, with realistic time-aware validation instead of an overly optimistic random split.
+* Lag features, rolling features, and time-aware validation
+* LightGBM and CatBoost model comparison
+* Champion LightGBM RMSLE: **0.373578** on internal time-based validation
+* Live demo: [retail-sales-forecasting-ml-system.streamlit.app](https://retail-sales-forecasting-ml-system.streamlit.app/)
+* Repository: [peyamikenanoglu/retail-sales-forecasting-ml-system](https://github.com/peyamikenanoglu/retail-sales-forecasting-ml-system)
 
-**Tech:** Python, pandas, scikit-learn, XGBoost  
-**Focus:** Churn prediction, temporal validation, customer behavior modeling  
-**Repository:** [peyamikenanoglu/kkbox-churn-prediction](https://github.com/peyamikenanoglu/kkbox-churn-prediction)
+### 3. KKBox Churn Prediction
 
----
+Leakage-safe, time-aware churn modeling project emphasizing methodological correctness over inflated random-split scores.
 
-### Retail Store Sales Forecasting
+* February-to-March validation setup
+* Tuned XGBoost selected by LogLoss
+* Focused on realistic customer churn evaluation and temporal generalization
+* Repository: [peyamikenanoglu/kkbox-churn-prediction](https://github.com/peyamikenanoglu/kkbox-churn-prediction)
 
-Production-style retail demand forecasting project using time-aware validation, leakage-safe feature engineering, LightGBM, CatBoost, lag features, rolling statistics, promotion features, and a Streamlit dashboard.
+### 4. TMDB Box Office ML Portfolio
 
-Tech: Python, pandas, scikit-learn, LightGBM, CatBoost, Streamlit  
-Focus: Time-series forecasting, demand forecasting, leakage-safe validation, feature engineering, model comparison  
-Result: LightGBM RMSLE = 0.373578 on internal time-based validation  
-Live Demo: https://retail-sales-forecasting-ml-system.streamlit.app/  
-Repository: https://github.com/peyamikenanoglu/retail-sales-forecasting-ml-system
+Secondary ML portfolio project covering movie revenue prediction and content-based recommendation.
 
----
-
-### TMDB Box Office Prediction & Movie Recommender
-
-Machine learning project for box office revenue prediction and movie recommendation using structured movie metadata.
-
-**Tech:** Python, pandas, scikit-learn, gradient boosting models  
-**Focus:** Regression, recommender systems, feature engineering, model evaluation  
-**Repository:** [peyamikenanoglu/tmdb-box-office-ml-portfolio](https://github.com/peyamikenanoglu/tmdb-box-office-ml-portfolio)
+* LightGBM, XGBoost, CatBoost, stacking, and recommender-system components
+* Regression and recommendation workflows using movie metadata
+* Repository: [peyamikenanoglu/tmdb-box-office-ml-portfolio](https://github.com/peyamikenanoglu/tmdb-box-office-ml-portfolio)
 
 ---
 
-## Technical Stack
+## Technical Focus
 
-**Languages & Core Tools**
+**Machine Learning:** classification, regression, forecasting, churn prediction, fraud detection, anomaly/risk scoring
 
-`Python` `SQL` `Git` `GitHub`
+**ML Engineering:** reproducible pipelines, leakage-safe validation, feature engineering, model evaluation, FastAPI, Streamlit
 
-**Data Science & Machine Learning**
-
-`pandas` `NumPy` `scikit-learn` `XGBoost` `LightGBM` `CatBoost`
-
-**Modeling Areas**
-
-`Classification` `Regression` `Forecasting` `Churn Prediction` `Fraud Detection` `Recommender Systems`
-
-**Engineering & Deployment**
-
-`FastAPI` `Docker` `Streamlit`
-
-**Model Interpretation**
-
-`SHAP` `Permutation Importance` `Feature Importance`
+**Tools:** Python, SQL, pandas, NumPy, scikit-learn, XGBoost, LightGBM, CatBoost, FastAPI, Streamlit
 
 ---
 
-## Currently Working On
+## Current Direction
 
-- Strengthening my GitHub portfolio with business-oriented machine learning projects
-- Improving deployment skills with FastAPI, Docker, and Streamlit
-- Building clean, reproducible ML pipelines suitable for professional review
-- Expanding SQL and data engineering skills for AI/ML roles
+I am expanding this portfolio with a focused set of clean, real, portfolio-grade repositories built around practical AI/ML systems for business and technical review.
+
+Current focus areas include forecasting, risk scoring, operational intelligence, document AI, RAG/LLM workflows, construction analytics, and client-facing AI systems.
 
 ---
 
-## Profile Direction
+## Professional Links
 
-My goal is to build practical AI systems that go beyond notebooks: structured repositories, reproducible pipelines, readable documentation, and deployable machine learning products.
-
-The source code in this repository is released under the MIT License. The dataset is subject to the original dataset provider's license and terms of use.
+* LinkedIn: [linkedin.com/in/peyami-kenanoglu](https://www.linkedin.com/in/peyami-kenanoglu)
+* ORCID: [orcid.org/0000-0003-1951-9534](https://orcid.org/0000-0003-1951-9534)
+* GitHub: [github.com/peyamikenanoglu](https://github.com/peyamikenanoglu)
